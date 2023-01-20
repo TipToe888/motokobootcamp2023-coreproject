@@ -2,10 +2,21 @@
 .vscode/
 .idea/
 **/*~
+*.code-workspace
 
 # Mac OSX temporary files
 .DS_Store
 **/.DS_Store
 
+# dfx temporary files
+.dfx/
+.dfx/local/
+.dfx/network/
 
+
+# generated files
+src/declarations/
+
+# frontend code
 node_modules/
+dist/
